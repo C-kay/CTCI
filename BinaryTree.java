@@ -12,7 +12,7 @@ public class BinaryTree {
             this.data = data;
         }
     }
-
+    // hamza is cool not
     public Node root;
 
     public void minTreeh(LinkedList<Integer> arr){
