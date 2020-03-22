@@ -31,6 +31,8 @@ public class BinaryTree {
             return;
         }
 
+        //another change
+
         if(root.data <= array.peek()){
             minTree(root.left, array);
         }else{
@@ -45,10 +47,4 @@ public class BinaryTree {
         System.out.println(root.data);
         print(root.right);
     }
-
-
-
-
-
-
 }
