@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
-
+//thanks hammy snepie i love you
 public class BinaryTree {
 
     private class Node{
