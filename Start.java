@@ -14,9 +14,10 @@ public class Start {
 
         BinaryTree h = new BinaryTree();
 
-        h.minTreeh(num);
-        System.out.println("-------------------------");
+        h.createTree();
         h.print(h.root);
+        System.out.println("-------------------------");
+        System.out.println(h.isBST(h.root));
         System.out.println("-------------------------");
 
     }
