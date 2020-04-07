@@ -132,6 +132,20 @@ public class BinaryTree {
         return true;
     }
 
+    public void successor(Node root){
+        if(root == null){
+            return;
+        }
+        if(root.right == null){
+            System.out.println(root.left.data);
+            return;
+        }
+
+        successor(root.right);
+        successor(root.left);
+        System.out.println();
+    }
+
 
 
 }

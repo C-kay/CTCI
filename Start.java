@@ -1,3 +1,4 @@
+import java.util.*;
 import java.util.LinkedList;
 
 public class Start {
@@ -20,7 +21,32 @@ public class Start {
         System.out.println(h.isBST(h.root));
         System.out.println("-------------------------");
 
+        isPalindrome(121);
+
+
     }
+
+    public static boolean isPalindrome(int x) {
+        if(x < 0 || x/10 == 0){
+            return true;
+        }
+        int main = x;
+        int pal = 0;
+
+        pal = (pal * 10) + main % 10;
+        main = main/10;
+
+        while(main != 0){
+
+            pal = (pal * 10) + main % 10;
+            main = main/ 10;
+        }
+        System.out.println(pal);
+        return pal == x;
+
+    }
+
+
 
 
 
